@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Center alignment</title>
+    <style>
+        body {
+            font-size: 20px;
+            margin: 20px;
+            width: 200px;
+            height: 40%;
+            border: 2px solid #000;
+        }
+
+        .completed {
+            color: gray;
+            text-decoration: line-through;
+            font-weight: bolder;
+            opacity: 0.5;
+        }
+
+        .in-progress {
+            font-weight: bolder;
+        }
+
+        .not-started {
+            color: orange;
+        }
+        #REST-handson{
+            background-color: blueviolet;
+            color: #fff;
+        }
+        #REST{
+            background-color:darkmagenta;
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>TODO</h1>
+    <ul>
+        <li class="completed">Read HTML</li>
+        <li class="in-progress">Hands on HTML</li>
+        <li class="completed">Read CSS</li>
+        <li class="not-started">Hands on CSS</li>
+        <li class="in-progress">Read JavaScript</li>
+        <li class="not-started">Hands on JavaScript</li>
+        <li id="REST">Read REST</li>
+        <li id="REST-handson">Hands on REST</li>
+    </ul>
+</body>
+
+</html>
